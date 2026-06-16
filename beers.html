@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beers</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soul Hops | Beers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+    <a href="index.html" class="nav-logo">
+        <img src="images/logo.jpeg" alt="Soul Hops Logo">
+    </a>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="beers.html">Beers</a></li>
+        <li><a href="visit.html">Visit</a></li>
+    </ul>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Delivery</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/soul-hops-burger-e-cerveja-artesanal-santo-amaro/9705458b-23b5-4f09-8c98-17a8f84441e7" target="_blank">Ifood</a>
+            <a href="https://www.keeta-global.com/BR/pt-BR" target="_blank">Keeta</a>
+        </div>
+        </div>
+    </nav>
+    
+    
+    <section id="beers">
+        <div class="beers-header">
+            <div>
+                <h2 class="section-title">Beers</h2>
+            </div>
+            <div class="beer-tabs">
+                <button class="beer-tab active" data-filter="all">All</button>
+                <button class="beer-tab" data-filter="ipa">IPAs</button>
+                <button class="beer-tab" data-filter="stout">Stouts</button>
+                <button class="beer-tab" data-filter="lager">Lagers</button>
+                <button class="beer-tab" data-filter="sour">Sours</button>
+            </div>
+        </div>
+    <div class="beer-grid">
+        <div class="beer-card fade-in visible" data-category="ipa">
+        <div class="beer-style">West Coast IPA</div>
+        <h3 class="beer-name">Golden Riot</h3>
+        <p class="beer-desc">Bright citrus, pine, and a crisp bitter finish. Everything you want from the west coast.</p>
+        <div class="beer-meta">
+            <div class="beer-abv"><strong>6.8%</strong> ABV · 65 IBU</div>
+            <div class="beer-price">$9</div>
+        </div>
+        </div>
+        <div class="beer-card fade-in visible" data-category="stout">
+            <div class="beer-style">Imperial Stout</div>
+                <h3 class="beer-name">Midnight Root</h3>
+                <p class="beer-desc">Dark chocolate, roasted coffee, and a velvety warmth that lingers long after the last sip.</p>
+                <div class="beer-meta">
+                    <div class="beer-abv"><strong>10.2%</strong> ABV · 45 IBU</div>
+                    <div class="beer-price">$12</div>
+                </div>
+            </div>
+            <div class="beer-card fade-in visible" data-category="sour">
+                <div class="beer-style">Berliner Weisse</div>
+                <h3 class="beer-name">Peach Fuzz</h3>
+                <p class="beer-desc">Tart, funky, and refreshing. Brewed with real Georgia peaches and zero apologies.</p>
+                <div class="beer-meta">
+                    <div class="beer-abv"><strong>3.4%</strong> ABV · 8 IBU</div>
+                    <div class="beer-price">$8</div>
+                </div>
+            </div>
+            <div class="beer-card fade-in visible" data-category="lager">
+                <div class="beer-style">Czech Pilsner</div>
+                <h3 class="beer-name">Low Rider</h3>
+                <p class="beer-desc">Bready malt, soft bitterness, impeccably clear. The working person's sophisticated lager.</p>
+                <div class="beer-meta">
+                    <div class="beer-abv"><strong>4.4%</strong> ABV · 32 IBU</div>
+                    <div class="beer-price">$7</div>
+                </div>
+            </div>
+            <div class="beer-card fade-in visible" data-category="ipa">
+                <div class="beer-style">Hazy DIPA</div>
+                <h3 class="beer-name">Cloudburst</h3>
+                <p class="beer-desc">Tropical fruit, smooth bitterness, and a silky body that defies its strength.</p>
+                <div class="beer-meta">
+                    <div class="beer-abv"><strong>8.1%</strong> ABV · 55 IBU</div>
+                    <div class="beer-price">$11</div>
+                </div>
+            </div>
+            <div class="beer-card fade-in visible" data-category="stout">
+                <div class="beer-style">Barrel-Aged Porter</div>
+                <h3 class="beer-name">Smoke & Oak</h3>
+                <p class="beer-desc">Aged in bourbon barrels for 8 months. Vanilla, oak, and a long, warming finish.</p>
+                <div class="beer-meta">
+                    <div class="beer-abv"><strong>9.0%</strong> ABV · 38 IBU</div>
+                    <div class="beer-price">$14</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+
+<footer>
+  <div class="footer-brand">
+    <span class="footer-logo">Soul Hops</span>
+    <p class="footer-tagline">Soul Hops combina cerveja artesanal, hambúrgueres gourmets e uma vibe descontraída em um só lugar inesquecível. De chope fresco a sabores marcantes, toda noite aqui parece um bom momento com os amigos.</p>
+    <div class="social-links">
+      <a href="https://www.instagram.com/soulhops/" target="_blank" class="social-link">IG</a>
+      <a href="https://web.facebook.com/soulhops/about/?_rdc=1&_rdr#" target="_blank" class="social-link">FB</a>
+      <a href="#" class="social-link">TW</a>
+      <a href="#" class="social-link">TK</a>
+    </div>
+  </div>
+  <div class="footer-col">
+    <h4>Menu</h4>
+    <ul>
+      <li><a href="beers.html">Craft Beers</a></li>
+      <li><a href="#burgers">Burgers</a></li>
+      <li><a href="#">Snacks & Sides</a></li>
+      <li><a href="#">Non-Alcoholic</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Visit</h4>
+    <ul>
+      <li><a href="visit.html">Hours</a></li>
+      <li><a href="visit.html">Location</a></li>
+      <li><a href="#">Private Events</a></li>
+      <li><a href="#">Gift Cards</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>About</h4>
+    <ul>
+      <li><a href="#about">Our Story</a></li>
+      <li><a href="#">Brewery Partners</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Press</a></li>
+    </ul>
+  </div>
+</footer>
+    <div class="footer-bottom">
+    <p>© 2026 Soul Hops. All rights reserved. Drink responsibly.</p>
+    <p>Crafted with care in Brooklyn, NY</p>
+    </div>
+    <script>
+
+        /* DROPDOWN */
+
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+
+            for (var i = 0; i < dropdowns.length; i++) {
+
+            var openDropdown = dropdowns[i];
+
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+
+            }
+
+        }
+
+        };
+
+
+        /* STICKY NAV */
+
+        const navbar = document.getElementById('navbar');
+
+        window.addEventListener('scroll', () => {
+
+        navbar.classList.toggle('scrolled', window.scrollY > 60);
+
+        });
+
+
+        /* FADE IN */
+
+        const fadeElements = document.querySelectorAll('.fade-in');
+
+        const observer = new IntersectionObserver(entries => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            }
+
+        });
+
+        });
+
+        fadeElements.forEach(el => {
+        observer.observe(el);
+        });
+
+
+        /* FILTER */
+
+        const tabs = document.querySelectorAll('.beer-tab');
+        const cards = document.querySelectorAll('.beer-card');
+
+        tabs.forEach(tab => {
+
+        tab.addEventListener('click', () => {
+
+            tabs.forEach(t => {
+            t.classList.remove('active');
+            });
+
+            tab.classList.add('active');
+
+            const filter = tab.dataset.filter;
+
+            cards.forEach(card => {
+
+            if (
+                filter === 'all' ||
+                card.dataset.category === filter
+            ) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+
+            });
+
+        });
+
+        });
+
+
+        /* DELIVERY APPS */
+
+        function isIOS() {
+        return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        }
+
+        function isAndroid() {
+        return /Android/i.test(navigator.userAgent);
+        }
+
+        function openIfood() {
+
+        if (!isIOS() && !isAndroid()) {
+
+            window.open(
+            "https://www.ifood.com.br/delivery/sao-paulo-sp/soul-hops-burger-e-cerveja-artesanal-santo-amaro/9705458b-23b5-4f09-8c98-17a8f84441e7",
+            "_blank"
+            );
+
+            return;
+        }
+
+        if (isIOS()) {
+
+            window.location.href =
+            "https://www.ifood.com.br/delivery/sao-paulo-sp/soul-hops-burger-e-cerveja-artesanal-santo-amaro/9705458b-23b5-4f09-8c98-17a8f84441e7";
+
+            setTimeout(() => {
+
+            window.location.href =
+                "https://apps.apple.com/br/app/ifood-pedir-comida-e-mercado/id483017239";
+
+            }, 2000);
+
+        }
+
+        if (isAndroid()) {
+
+            window.location.href =
+            "intent://delivery/sao-paulo-sp/soul-hops-burger-e-cerveja-artesanal-santo-amaro/9705458b-23b5-4f09-8c98-17a8f84441e7#Intent;scheme=https;package=br.com.brainweb.ifood;end";
+
+            setTimeout(() => {
+
+            window.location.href =
+                "https://play.google.com/store/apps/details?id=br.com.brainweb.ifood";
+
+            }, 2000);
+
+        }
+
+        }
+
+        function openKeeta() {
+
+        if (!isIOS() && !isAndroid()) {
+
+            window.open(
+            "https://www.keeta-global.com/BR/pt-BR",
+            "_blank"
+            );
+
+            return;
+        }
+
+        window.location.href = "keeta://";
+
+        setTimeout(() => {
+
+            if (isIOS()) {
+
+            window.location.href =
+                "https://apps.apple.com/br/app/keeta-food-delivery/id6505045490";
+
+            } else {
+
+            window.location.href =
+                "https://play.google.com/store/apps/details?id=com.meituan.brazil";
+
+            }
+
+        }, 2000);
+
+        }
+
+    </script>
+</body>
+</html>
+  
