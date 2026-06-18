@@ -727,7 +727,7 @@ padding: 2rem;
 font-family: var(--font-display);
 font-size: clamp(3rem, 8vw, 6rem);
 line-height: 1;
-color:var(--dark-green);
+color:white;
 margin-bottom: 1.5rem;
 }
 
